@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1628B17A18B890BD00FC524D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1628B17918B890BD00FC524D /* Foundation.framework */; };
+		1628B17C18B890BD00FC524D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1628B17B18B890BD00FC524D /* CoreGraphics.framework */; };
+		1628B17E18B890BD00FC524D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1628B17D18B890BD00FC524D /* UIKit.framework */; };
+		1628B18018B890BD00FC524D /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1628B17F18B890BD00FC524D /* GLKit.framework */; };
+		1628B18218B890BD00FC524D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1628B18118B890BD00FC524D /* OpenGLES.framework */; };
+		1628B18818B890BD00FC524D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1628B18618B890BD00FC524D /* InfoPlist.strings */; };
+		1628B18A18B890BD00FC524D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1628B18918B890BD00FC524D /* main.m */; };
+		1628B18E18B890BD00FC524D /* EGGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1628B18D18B890BD00FC524D /* EGGAppDelegate.m */; };
+		1628B19118B890BD00FC524D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1628B18F18B890BD00FC524D /* Main_iPhone.storyboard */; };
+		1628B19418B890BD00FC524D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1628B19218B890BD00FC524D /* Main_iPad.storyboard */; };
+		1628B19618B890BD00FC524D /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 1628B19518B890BD00FC524D /* Shader.fsh */; };
+		1628B19818B890BD00FC524D /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 1628B19718B890BD00FC524D /* Shader.vsh */; };
+		1628B19B18B890BD00FC524D /* EGGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1628B19A18B890BD00FC524D /* EGGViewController.m */; };
+		1628B19D18B890BD00FC524D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1628B19C18B890BD00FC524D /* Images.xcassets */; };
+		1628B1A418B890BD00FC524D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1628B1A318B890BD00FC524D /* XCTest.framework */; };
+		1628B1A518B890BD00FC524D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1628B17918B890BD00FC524D /* Foundation.framework */; };
+		1628B1A618B890BD00FC524D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1628B17D18B890BD00FC524D /* UIKit.framework */; };
+		1628B1AE18B890BD00FC524D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1628B1AC18B890BD00FC524D /* InfoPlist.strings */; };
+		1628B1B018B890BD00FC524D /* EGG_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1628B1AF18B890BD00FC524D /* EGG_AppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1628B1A718B890BD00FC524D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1628B16E18B890BD00FC524D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1628B17518B890BD00FC524D;
+			remoteInfo = EGG_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1628B17618B890BD00FC524D /* EGG_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGG_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1628B17918B890BD00FC524D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1628B17B18B890BD00FC524D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1628B17D18B890BD00FC524D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1628B17F18B890BD00FC524D /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		1628B18118B890BD00FC524D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1628B18518B890BD00FC524D /* EGG_App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EGG_App-Info.plist"; sourceTree = "<group>"; };
+		1628B18718B890BD00FC524D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1628B18918B890BD00FC524D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1628B18B18B890BD00FC524D /* EGG_App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EGG_App-Prefix.pch"; sourceTree = "<group>"; };
+		1628B18C18B890BD00FC524D /* EGGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGGAppDelegate.h; sourceTree = "<group>"; };
+		1628B18D18B890BD00FC524D /* EGGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGGAppDelegate.m; sourceTree = "<group>"; };
+		1628B19018B890BD00FC524D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1628B19318B890BD00FC524D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		1628B19518B890BD00FC524D /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		1628B19718B890BD00FC524D /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		1628B19918B890BD00FC524D /* EGGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGGViewController.h; sourceTree = "<group>"; };
+		1628B19A18B890BD00FC524D /* EGGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGGViewController.m; sourceTree = "<group>"; };
+		1628B19C18B890BD00FC524D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1628B1A218B890BD00FC524D /* EGG_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EGG_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1628B1A318B890BD00FC524D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1628B1AB18B890BD00FC524D /* EGG_AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EGG_AppTests-Info.plist"; sourceTree = "<group>"; };
+		1628B1AD18B890BD00FC524D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1628B1AF18B890BD00FC524D /* EGG_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGG_AppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1628B17318B890BD00FC524D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1628B18218B890BD00FC524D /* OpenGLES.framework in Frameworks */,
+				1628B17C18B890BD00FC524D /* CoreGraphics.framework in Frameworks */,
+				1628B17E18B890BD00FC524D /* UIKit.framework in Frameworks */,
+				1628B18018B890BD00FC524D /* GLKit.framework in Frameworks */,
+				1628B17A18B890BD00FC524D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1628B19F18B890BD00FC524D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1628B1A418B890BD00FC524D /* XCTest.framework in Frameworks */,
+				1628B1A618B890BD00FC524D /* UIKit.framework in Frameworks */,
+				1628B1A518B890BD00FC524D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628B16D18B890BD00FC524D = {
+			isa = PBXGroup;
+			children = (
+				1628B18318B890BD00FC524D /* EGG_App */,
+				1628B1A918B890BD00FC524D /* EGG_AppTests */,
+				1628B17818B890BD00FC524D /* Frameworks */,
+				1628B17718B890BD00FC524D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1628B17718B890BD00FC524D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1628B17618B890BD00FC524D /* EGG_App.app */,
+				1628B1A218B890BD00FC524D /* EGG_AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1628B17818B890BD00FC524D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1628B17918B890BD00FC524D /* Foundation.framework */,
+				1628B17B18B890BD00FC524D /* CoreGraphics.framework */,
+				1628B17D18B890BD00FC524D /* UIKit.framework */,
+				1628B17F18B890BD00FC524D /* GLKit.framework */,
+				1628B18118B890BD00FC524D /* OpenGLES.framework */,
+				1628B1A318B890BD00FC524D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1628B18318B890BD00FC524D /* EGG_App */ = {
+			isa = PBXGroup;
+			children = (
+				1628B18C18B890BD00FC524D /* EGGAppDelegate.h */,
+				1628B18D18B890BD00FC524D /* EGGAppDelegate.m */,
+				1628B18F18B890BD00FC524D /* Main_iPhone.storyboard */,
+				1628B19218B890BD00FC524D /* Main_iPad.storyboard */,
+				1628B19518B890BD00FC524D /* Shader.fsh */,
+				1628B19718B890BD00FC524D /* Shader.vsh */,
+				1628B19918B890BD00FC524D /* EGGViewController.h */,
+				1628B19A18B890BD00FC524D /* EGGViewController.m */,
+				1628B19C18B890BD00FC524D /* Images.xcassets */,
+				1628B18418B890BD00FC524D /* Supporting Files */,
+			);
+			path = EGG_App;
+			sourceTree = "<group>";
+		};
+		1628B18418B890BD00FC524D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1628B18518B890BD00FC524D /* EGG_App-Info.plist */,
+				1628B18618B890BD00FC524D /* InfoPlist.strings */,
+				1628B18918B890BD00FC524D /* main.m */,
+				1628B18B18B890BD00FC524D /* EGG_App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1628B1A918B890BD00FC524D /* EGG_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1628B1AF18B890BD00FC524D /* EGG_AppTests.m */,
+				1628B1AA18B890BD00FC524D /* Supporting Files */,
+			);
+			path = EGG_AppTests;
+			sourceTree = "<group>";
+		};
+		1628B1AA18B890BD00FC524D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1628B1AB18B890BD00FC524D /* EGG_AppTests-Info.plist */,
+				1628B1AC18B890BD00FC524D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1628B17518B890BD00FC524D /* EGG_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1628B1B318B890BD00FC524D /* Build configuration list for PBXNativeTarget "EGG_App" */;
+			buildPhases = (
+				1628B17218B890BD00FC524D /* Sources */,
+				1628B17318B890BD00FC524D /* Frameworks */,
+				1628B17418B890BD00FC524D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EGG_App;
+			productName = EGG_App;
+			productReference = 1628B17618B890BD00FC524D /* EGG_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1628B1A118B890BD00FC524D /* EGG_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1628B1B618B890BD00FC524D /* Build configuration list for PBXNativeTarget "EGG_AppTests" */;
+			buildPhases = (
+				1628B19E18B890BD00FC524D /* Sources */,
+				1628B19F18B890BD00FC524D /* Frameworks */,
+				1628B1A018B890BD00FC524D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1628B1A818B890BD00FC524D /* PBXTargetDependency */,
+			);
+			name = EGG_AppTests;
+			productName = EGG_AppTests;
+			productReference = 1628B1A218B890BD00FC524D /* EGG_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1628B16E18B890BD00FC524D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EGG;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Van Ly";
+				TargetAttributes = {
+					1628B1A118B890BD00FC524D = {
+						TestTargetID = 1628B17518B890BD00FC524D;
+					};
+				};
+			};
+			buildConfigurationList = 1628B17118B890BD00FC524D /* Build configuration list for PBXProject "EGG_App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1628B16D18B890BD00FC524D;
+			productRefGroup = 1628B17718B890BD00FC524D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1628B17518B890BD00FC524D /* EGG_App */,
+				1628B1A118B890BD00FC524D /* EGG_AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1628B17418B890BD00FC524D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1628B19618B890BD00FC524D /* Shader.fsh in Resources */,
+				1628B19418B890BD00FC524D /* Main_iPad.storyboard in Resources */,
+				1628B19118B890BD00FC524D /* Main_iPhone.storyboard in Resources */,
+				1628B19D18B890BD00FC524D /* Images.xcassets in Resources */,
+				1628B18818B890BD00FC524D /* InfoPlist.strings in Resources */,
+				1628B19818B890BD00FC524D /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1628B1A018B890BD00FC524D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1628B1AE18B890BD00FC524D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1628B17218B890BD00FC524D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1628B19B18B890BD00FC524D /* EGGViewController.m in Sources */,
+				1628B18E18B890BD00FC524D /* EGGAppDelegate.m in Sources */,
+				1628B18A18B890BD00FC524D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1628B19E18B890BD00FC524D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1628B1B018B890BD00FC524D /* EGG_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1628B1A818B890BD00FC524D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1628B17518B890BD00FC524D /* EGG_App */;
+			targetProxy = 1628B1A718B890BD00FC524D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1628B18618B890BD00FC524D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1628B18718B890BD00FC524D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1628B18F18B890BD00FC524D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1628B19018B890BD00FC524D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1628B19218B890BD00FC524D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1628B19318B890BD00FC524D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1628B1AC18B890BD00FC524D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1628B1AD18B890BD00FC524D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1628B1B118B890BD00FC524D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1628B1B218B890BD00FC524D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1628B1B418B890BD00FC524D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EGG_App/EGG_App-Prefix.pch";
+				INFOPLIST_FILE = "EGG_App/EGG_App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1628B1B518B890BD00FC524D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EGG_App/EGG_App-Prefix.pch";
+				INFOPLIST_FILE = "EGG_App/EGG_App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1628B1B718B890BD00FC524D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EGG_App.app/EGG_App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EGG_App/EGG_App-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EGG_AppTests/EGG_AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1628B1B818B890BD00FC524D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EGG_App.app/EGG_App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EGG_App/EGG_App-Prefix.pch";
+				INFOPLIST_FILE = "EGG_AppTests/EGG_AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1628B17118B890BD00FC524D /* Build configuration list for PBXProject "EGG_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1628B1B118B890BD00FC524D /* Debug */,
+				1628B1B218B890BD00FC524D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1628B1B318B890BD00FC524D /* Build configuration list for PBXNativeTarget "EGG_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1628B1B418B890BD00FC524D /* Debug */,
+				1628B1B518B890BD00FC524D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1628B1B618B890BD00FC524D /* Build configuration list for PBXNativeTarget "EGG_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1628B1B718B890BD00FC524D /* Debug */,
+				1628B1B818B890BD00FC524D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1628B16E18B890BD00FC524D /* Project object */;
+}
