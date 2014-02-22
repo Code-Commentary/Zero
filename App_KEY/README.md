@@ -12,3 +12,4 @@ The key should:-
 Resources:-
 
  * Glenda in pill jacket. The colour scheme for App.
+ * [Developer Manuals] (https://developer.apple.com/library/mac/navigation/)
