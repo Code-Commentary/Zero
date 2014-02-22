@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/home/vy/Developments/2014/Scratch/Zero/App_EGG/EGG_App_Android/.metadata/.plugins/org.eclipse.jdt.core
+2586096677.index
+3612509248.index
+4024821733.index
