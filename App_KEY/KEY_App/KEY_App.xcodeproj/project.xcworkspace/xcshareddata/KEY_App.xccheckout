@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BEC3C62B-1F6B-4BCB-893C-6CA12D6B76B6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KEY_App</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B8FB796B-5B24-4EC4-9A0D-0FC3F532510F</key>
+		<string>https://github.com/Code-Commentary/Zero.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>App_KEY/KEY_App/KEY_App.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B8FB796B-5B24-4EC4-9A0D-0FC3F532510F</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Code-Commentary/Zero.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B8FB796B-5B24-4EC4-9A0D-0FC3F532510F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B8FB796B-5B24-4EC4-9A0D-0FC3F532510F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Zero</string>
+		</dict>
+	</array>
+</dict>
+</plist>
